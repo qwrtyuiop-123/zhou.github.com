@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>周福海 - 前端开发博客</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <h1 class="logo">zhoufh</h1>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li><a href="#home" class="nav-link active">首页</a></li>
+              <li><a href="#blog" class="nav-link">博客</a></li>
+              <li><a href="#projects" class="nav-link">项目</a></li>
+              <li><a href="#about" class="nav-link">关于</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="hero-tag">前端开发者</span>
+            <h2 class="hero-title">你好，我是周福海</h2>
+            <p class="hero-desc">
+              专注于 HTML5 与 CSS3 的前端开发，追求卓越的用户体验
+            </p>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number">6</span>
+                <span class="stat-label">个项目</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">篇文章</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">2</span>
+                <span class="stat-label">年学习</span>
+              </div>
+            </div>
+            <a href="#blog" class="btn btn-primary">阅读博客</a>
+          </div>
+          <div class="hero-visual">
+            <div class="code-window">
+              <div class="code-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <pre
+                class="code-content"
+              ><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  name: <span class="code-string">'周福海'</span>,
+  skills: [<span class="code-string">'HTML5'</span>, <span class="code-string">'CSS3'</span>, <span class="code-string">'JavaScript'</span>],
+  passion: <span class="code-string">'前端开发'</span>,
+  goal: <span class="code-string">'追求卓越'</span>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">最新博客</h2>
+          <p class="section-desc">分享学习心得与前端技术</p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="blog-icon">📚</div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">2024-01-15</span>
+              <h3 class="blog-title">CSS3 动画效果实战</h3>
+              <p class="blog-excerpt">
+                深入理解 CSS3 动画属性，通过实际案例掌握动画制作技巧...
+              </p>
+              <a href="#" class="blog-link">阅读更多 →</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="blog-icon">🎨</div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">2024-01-10</span>
+              <h3 class="blog-title">Flexbox 布局完全指南</h3>
+              <p class="blog-excerpt">
+                从基础到高级，全面掌握 Flexbox 布局的各个方面...
+              </p>
+              <a href="#" class="blog-link">阅读更多 →</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="blog-icon">📱</div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">2024-01-05</span>
+              <h3 class="blog-title">响应式设计最佳实践</h3>
+              <p class="blog-excerpt">
+                学习如何创建适配各种设备的响应式网页...
+              </p>
+              <a href="#" class="blog-link">阅读更多 →</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="blog-icon">⚡</div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">2024-01-01</span>
+              <h3 class="blog-title">HTML5 新特性解析</h3>
+              <p class="blog-excerpt">
+                探索 HTML5 带来的新标签、新 API 和新特性...
+              </p>
+              <a href="#" class="blog-link">阅读更多 →</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="blog-icon">🎯</div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">2023-12-28</span>
+              <h3 class="blog-title">CSS 选择器进阶</h3>
+              <p class="blog-excerpt">掌握高级 CSS 选择器，提升代码效率...</p>
+              <a href="#" class="blog-link">阅读更多 →</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="blog-icon">✨</div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-date">2023-12-25</span>
+              <h3 class="blog-title">网页性能优化技巧</h3>
+              <p class="blog-excerpt">提升网页加载速度和用户体验的方法...</p>
+              <a href="#" class="blog-link">阅读更多 →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">项目展示</h2>
+          <p class="section-desc">我的实践项目与经验积累</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-badge">推荐</div>
+            <h3 class="project-title">响应式个人博客</h3>
+            <p class="project-desc">
+              使用纯 HTML5 和 CSS3
+              开发的个人博客，支持响应式布局，适配各种设备。实现了文章发布、分类管理和搜索功能。
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">响应式</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">✓ 语义化标签</span>
+              <span class="feature">✓ CSS Grid</span>
+              <span class="feature">✓ Flexbox</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-badge">推荐</div>
+            <h3 class="project-title">电商网站首页</h3>
+            <p class="project-desc">
+              仿京东电商网站首页，完整还原了首页布局。包含轮播图、商品分类、促销活动等模块。
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">动画</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">✓ 轮播图</span>
+              <span class="feature">✓ 悬停效果</span>
+              <span class="feature">✓ 过渡动画</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">在线计算器</h3>
+            <p class="project-desc">
+              功能完整的在线计算器，支持基本数学运算，包括加减乘除、括号和清除功能。
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">表单</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">✓ 表单验证</span>
+              <span class="feature">✓ 键盘支持</span>
+              <span class="feature">✓ 响应式</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">企业官网</h3>
+            <p class="project-desc">
+              为某企业开发的企业官网，包含首页、关于我们、产品展示和联系我们等页面。
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">多页面</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">✓ 导航菜单</span>
+              <span class="feature">✓ 图片画廊</span>
+              <span class="feature">✓ 表单设计</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">个人作品集</h3>
+            <p class="project-desc">
+              展示个人作品和技能的静态网站，包含项目展示、技能展示和联系方式。
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">设计</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">✓ 卡片布局</span>
+              <span class="feature">✓ 渐变背景</span>
+              <span class="feature">✓ 动画效果</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">天气卡片</h3>
+            <p class="project-desc">
+              天气信息展示卡片，清晰展示温度、天气状况和未来预报。
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">卡片</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">✓ 图标使用</span>
+              <span class="feature">✓ 渐变色彩</span>
+              <span class="feature">✓ 阴影效果</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-info">
+            <div class="section-header">
+              <h2 class="section-title">关于我</h2>
+              <p class="section-desc">热爱前端，追求卓越</p>
+            </div>
+            <div class="about-text">
+              <p>
+                我是一名专注于前端开发的学习者，对 <strong>HTML5</strong> 和
+                <strong>CSS3</strong> 有扎实的掌握。
+              </p>
+              <p>
+                我热衷于通过代码创造美好的网页体验，注重细节，追求卓越。在学习过程中，我独立完成了多个项目，积累了丰富的实践经验。
+              </p>
+              <p>我的优势包括：</p>
+            </div>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">💻</span>
+                <div class="highlight-content">
+                  <h4>扎实的基础</h4>
+                  <p>熟练掌握 HTML5 语义化标签和 CSS3 核心概念</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🎨</span>
+                <div class="highlight-content">
+                  <h4>审美能力</h4>
+                  <p>注重设计细节，追求美观与实用的平衡</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">📚</span>
+                <div class="highlight-content">
+                  <h4>学习能力</h4>
+                  <p>持续学习新技术，不断提升自己</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-skills">
+            <h3 class="skills-title">我的技能</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Flexbox</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CSS Grid</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">响应式设计</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CSS 动画</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3 class="footer-logo">周福海</h3>
+            <p class="footer-desc">前端开发者 | 专注 HTML5 & CSS3</p>
+          </div>
+          <div class="footer-links">
+            <a href="#home" class="footer-link">首页</a>
+            <a href="#blog" class="footer-link">博客</a>
+            <a href="#projects" class="footer-link">项目</a>
+            <a href="#about" class="footer-link">关于</a>
+          </div>
+          <p class="footer-copy">© 2024 周福海. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
